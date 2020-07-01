@@ -1,0 +1,68 @@
+#mainCourse{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    #leftCoursePage{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 90vw;
+        margin-left: 5vw;
+        margin-right: 2vw;
+        .mainCoursePage_contain{
+            height:110vh;
+            margin:10vh 0 0 0;
+            border-radius: 20px;
+            background-color: rgba(255, 255, 255,0.9);
+        }
+        #mainCoursePage_title{
+            position: relative;
+            margin:10vh 0 0 0;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            height:27vh;
+            border-radius: 20px;
+            background-color: rgba(255, 255, 255,0.9);
+            img{
+                margin:1.5vw 3vw 1.5vw 3vw;
+                width:12vw;
+                height:22vh;
+                border-radius: 20px;
+            }
+            #mainCourseTitleWord{
+                h5{
+                    font-size: 2rem;
+                }
+                margin:auto 1vw auto 0;
+                overflow: scroll;
+                justify-content: center;
+                width:65vw;
+                height:22vh;
+                display: inline-block;
+            }
+        
+        }
+    }
+
+    #rightCoursePage{
+        margin:10vh 5vw 0 3vw;  
+        display: flex;
+        width:20vw;
+        height:80vh;
+        background-color: rgba(255,255,255,0.9);
+        border-radius: 20px;
+        .mainCoursePage_right{
+            position: fixed;
+            // background-color: rgb(255, 255, 255,0.8);
+
+            
+            // margin:15vh 5vw 0 2vw;
+
+            
+        }
+    }
+}
