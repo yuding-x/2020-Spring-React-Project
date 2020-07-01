@@ -37,7 +37,6 @@ class AlreadyLoginHead extends React.Component {
       <div>
         <header className="main_header">
           <img src={logo} alt="logo" />
-          {/* <h1>网络安全虚拟实验平台</h1> */}
           <Link to="/user" className={"title"}>
             网络安全虚拟实验平台
           </Link>
@@ -45,7 +44,6 @@ class AlreadyLoginHead extends React.Component {
           <Menu
             mode="horizontal"
             id="M=menuTitle"
-            // defaultSelectedKeys={["course"]}
             selectedKeys={[this.props.current]}
           >
             <Menu.Item key="course">

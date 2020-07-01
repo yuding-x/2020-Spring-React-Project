@@ -93,7 +93,7 @@ export class RegisterForm extends Component {
           this.state.static_head
         )
           .then(response => {
-            console.log("success", response.state);
+            // console.log("success", response.state);
             if (response.state == "success") {
               message.success("注册成功");
             }
@@ -102,7 +102,7 @@ export class RegisterForm extends Component {
             console.log("failed", error);
           });
       }
-      //如果没有错误，则发送用户信息给后端
+      //如果没有错误，则发送用户信息 给后端
       else {
         message.error("注册信息有误！");
       }
