@@ -34,7 +34,7 @@ export default function ajax(url, data = {}, method = "GET") {
         //reject(error)
         message.error("请求出错了:" + error.message);
       });
-    //2.如果成功，调用resolve（value）
+    //2.如果成功，调用resolve（value）;
     //3.如果失败，不调用reject(reason)，而是提示异常信息
   });
   // 执行异步ajax 请求
